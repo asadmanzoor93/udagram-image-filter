@@ -15,6 +15,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
   // Filter Image Endpoint: Pass image as query param to get the filtered image as a response
   app.get( "/filteredimage", async ( request, response ) => {
+    // @ts-ignore
     let image_url: string = request.query.image_url;
     if( !image_url ) {
       return response.status(400).send(`Unprocessable Entity: Image URL Required`);
