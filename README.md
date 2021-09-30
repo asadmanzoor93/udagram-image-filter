@@ -14,3 +14,14 @@ You'll need to create a new node server. Open a new terminal within the project 
 ### Deploying your system
 
 Follow the process `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
+
+
+### ElasticBeanStack Application URL
+
+http://udagram-image-filter-asad-dev.us-west-2.elasticbeanstalk.com/
+
+
+### Testing URL
+
+http://udagram-image-filter-asad-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=http://commondatastorage.googleapis.com/codeskulptor-assets/lathrop/asteroid_brown.png
+
