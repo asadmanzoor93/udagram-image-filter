@@ -32,8 +32,8 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
           }
         })
       }
-      catch (e){
-        response.status(400).send('Image Processing Failed')
+      catch (error){
+        response.status(400).send('Image Processing Failed: ' + error)
       }
     }
   });
